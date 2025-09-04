@@ -7,7 +7,8 @@ app_license = "mit"
 
 fixtures = [{"dt": "Workflow State"},
             {"dt": "Workflow Action Master"},
-            {"dt": "Workflow"},]
+            {"dt": "Workflow"},
+            {"dt": "Salary Structure"},]
 
 doc_events = {
     "Employee": {
