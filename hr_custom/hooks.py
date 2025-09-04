@@ -5,6 +5,15 @@ app_description = "Custom app for Employee and HR"
 app_email = "namanalways@gmail.com"
 app_license = "mit"
 
+fixtures = [{"dt": "Workflow State"},
+            {"dt": "Workflow Action Master"},
+            {"dt": "Workflow"},]
+
+doc_events = {
+    "Employee": {
+        "on_update": "hr_custom.patches.experience_letter_print.on_update_employee"
+    }
+}
 # Apps
 # ------------------
 
