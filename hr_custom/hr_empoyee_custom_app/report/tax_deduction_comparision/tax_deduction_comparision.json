@@ -1,0 +1,35 @@
+{
+ "add_total_row": 0,
+ "add_translate_data": 0,
+ "columns": [],
+ "creation": "2025-09-05 07:26:37.032526",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letterhead": null,
+ "modified": "2025-09-05 07:36:21.230848",
+ "modified_by": "Administrator",
+ "module": "HR Empoyee Custom App",
+ "name": "Tax Deduction Comparision",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT \n    ss.gross_pay AS \"Gross Pay\",\n\n    MAX(CASE WHEN ss.salary_structure = 'Old Tax Regime' \n             THEN ss.total_deduction END) AS \"Old Tax Regime\",\n\n    MAX(CASE WHEN ss.salary_structure = 'New Tax Regime' \n             THEN ss.total_deduction END) AS \"New Tax Regime\"\n\nFROM `tabSalary Slip` ss\nWHERE ss.docstatus = 1\nGROUP BY ss.gross_pay\nHAVING \n    MAX(CASE WHEN ss.salary_structure = 'Old Tax Regime' THEN 1 END) = 1\n    AND MAX(CASE WHEN ss.salary_structure = 'New Tax Regime' THEN 1 END) = 1\nORDER BY ss.gross_pay;",
+ "ref_doctype": "Salary Slip",
+ "report_name": "Tax Deduction Comparision",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "HR User"
+  },
+  {
+   "role": "HR Manager"
+  },
+  {
+   "role": "Employee"
+  }
+ ],
+ "timeout": 0
+}

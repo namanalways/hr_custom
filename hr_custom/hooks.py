@@ -5,15 +5,26 @@ app_description = "Custom app for Employee and HR"
 app_email = "namanalways@gmail.com"
 app_license = "mit"
 
-fixtures = [{"dt": "Workflow State"},
+fixtures = [{"dt": "Company"},
+            {"dt": "Workflow State"},
             {"dt": "Workflow Action Master"},
             {"dt": "Workflow"},
-            {"dt": "Salary Structure"},]
+            {"dt": "Salary Structure"},
+            {"dt": "Salary Component"},
+            {"dt": "Salary Structure Assignment"},
+            {"dt": "Employee"},
+            {"dt": "Holiday List"},
+            {"dt": "Payroll Entry"},
+            {"dt": "Salary Slip"},]
 
 doc_events = {
     "Employee": {
         "on_update": "hr_custom.patches.experience_letter_print.on_update_employee"
     }
+}
+
+doctype_js = {
+    "Salary Structure Assignment": "public/js/select_tax_regime.js"
 }
 # Apps
 # ------------------
