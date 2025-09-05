@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{employee}-{###}",
+ "creation": "2025-09-05 07:40:49.993849",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "employee",
+  "employee_name",
+  "sec_80c",
+  "sec_80d",
+  "other_exemptions"
+ ],
+ "fields": [
+  {
+   "fieldname": "sec_80c",
+   "fieldtype": "Data",
+   "label": "Sec 80C"
+  },
+  {
+   "fieldname": "sec_80d",
+   "fieldtype": "Data",
+   "label": "Sec 80D"
+  },
+  {
+   "fieldname": "other_exemptions",
+   "fieldtype": "Data",
+   "label": "Other Exemptions"
+  },
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "label": "Employee",
+   "link_filters": "[[\"Employee\",\"status\",\"=\",\"Active\"]]",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "employee.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-09-05 08:03:47.826900",
+ "modified_by": "Administrator",
+ "module": "HR Empoyee Custom App",
+ "name": "Employee Investment Declaration",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

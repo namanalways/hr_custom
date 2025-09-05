@@ -20,6 +20,9 @@ fixtures = [{"dt": "Company"},
 doc_events = {
     "Employee": {
         "on_update": "hr_custom.patches.experience_letter_print.on_update_employee"
+    },
+    "Payroll Entry": {
+        "before_save": "hr_custom.patches.employee_investment_detail.before_save_investment_detail"
     }
 }
 
