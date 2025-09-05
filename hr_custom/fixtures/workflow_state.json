@@ -1,0 +1,119 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "question-sign",
+  "modified": "2025-09-04 16:22:22.512426",
+  "name": "Pending",
+  "style": "",
+  "workflow_state_name": "Pending"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "ok-sign",
+  "modified": "2025-09-04 16:22:22.513279",
+  "name": "Approved",
+  "style": "Success",
+  "workflow_state_name": "Approved"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "remove",
+  "modified": "2025-09-04 16:22:22.514054",
+  "name": "Rejected",
+  "style": "Danger",
+  "workflow_state_name": "Rejected"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-09-04 16:26:14.185288",
+  "name": "Application",
+  "style": "Inverse",
+  "workflow_state_name": "Application"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-09-04 16:27:04.927188",
+  "name": "Hired",
+  "style": "Success",
+  "workflow_state_name": "Hired"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-09-04 16:25:48.338759",
+  "name": "Job Opening",
+  "style": "Primary",
+  "workflow_state_name": "Job Opening"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-09-04 16:26:25.423791",
+  "name": "Screening",
+  "style": "Inverse",
+  "workflow_state_name": "Screening"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-09-04 16:26:39.559727",
+  "name": "Interview",
+  "style": "Inverse",
+  "workflow_state_name": "Interview"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-09-04 17:49:26.024595",
+  "name": "Joining",
+  "style": "Info",
+  "workflow_state_name": "Joining"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-09-04 17:50:10.298759",
+  "name": "Probation",
+  "style": "Primary",
+  "workflow_state_name": "Probation"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-09-04 17:50:33.261585",
+  "name": "Exit",
+  "style": "Danger",
+  "workflow_state_name": "Exit"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-09-04 16:26:49.331415",
+  "name": "Offer",
+  "style": "Inverse",
+  "workflow_state_name": "Offer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-09-04 17:50:22.249419",
+  "name": "Confirmation",
+  "style": "Success",
+  "workflow_state_name": "Confirmation"
+ }
+]

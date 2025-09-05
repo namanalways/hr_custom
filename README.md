@@ -10,6 +10,7 @@ You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 cd $PATH_TO_YOUR_BENCH
 bench get-app $URL_OF_THIS_REPO --branch develop
 bench install-app hr_custom
+bench --site [site_name] migrate
 ```
 
 ### Contributing
@@ -31,3 +32,14 @@ Pre-commit is configured to use the following tools for checking and formatting 
 ### License
 
 mit
+
+### Features
+
+1. Workflow setup for Hiring Employee
+2. Workflow setup for Employee Lifecycle
+3. Report for Applicant's Source
+4. Custom Experience Letter for Employee exiting
+5. Custom Salary Slip
+6. Setup for Old and New Tax Regime in Salary Structure
+7. Comparision Report for Old vs New Regime
+8. Employee Investment are now part of Payroll
