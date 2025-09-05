@@ -1,0 +1,79 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-09-04 16:22:22.522475",
+  "name": "Approve",
+  "workflow_action_name": "Approve"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-09-04 16:22:22.523188",
+  "name": "Reject",
+  "workflow_action_name": "Reject"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-09-04 16:22:22.523738",
+  "name": "Review",
+  "workflow_action_name": "Review"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-09-04 16:27:41.848161",
+  "name": "Select Application",
+  "workflow_action_name": "Select Application"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-09-04 16:27:53.020459",
+  "name": "Shortlist Candidate",
+  "workflow_action_name": "Shortlist Candidate"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-09-04 16:28:12.897460",
+  "name": "Schedule Interview",
+  "workflow_action_name": "Schedule Interview"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-09-04 16:28:23.323875",
+  "name": "Offer Job Letter",
+  "workflow_action_name": "Offer Job Letter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-09-04 17:51:23.255583",
+  "name": "Start Probation",
+  "workflow_action_name": "Start Probation"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-09-04 17:51:33.195464",
+  "name": "Confirm Employee",
+  "workflow_action_name": "Confirm Employee"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-09-04 16:28:30.807257",
+  "name": "Hire",
+  "workflow_action_name": "Hire"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-09-04 17:51:48.858833",
+  "name": "Exit Employee",
+  "workflow_action_name": "Exit Employee"
+ }
+]
